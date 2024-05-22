@@ -684,6 +684,7 @@ product-brand{
         height: 40px;
         width: 100%;
         font-size: 26px;
+        cursor: pointer;
     }
     .product-page-name{
         margin-bottom: 16px;
@@ -704,6 +705,7 @@ product-brand{
         height: 48px;
         width: 100%;
         font-size: 26px;
+        cursor: pointer;
     }
     .product-page-name{
         margin-bottom: 64px;
