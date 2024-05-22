@@ -1,0 +1,48 @@
+:root {
+    --color-primary: #1C5D99;
+    --color-secondary: #3E7CB1;
+    --color-dark: #114B5f;
+    --color-transparent: #DBE4EE;
+    --color-red: #E60021;
+    --color-black: #000000;
+
+    --color-top-line: var(--color-primary);
+    --color-Logo: var(--color-black);
+    --color-placeholder: var(--color-transparent);
+
+    --color-search-border: var(--color-dark);
+    --color-search-text: var(--color-primary);
+
+    --color-borders: var(--color-dark);
+    --color-borders-dropdown-menu: var(--color-transparent);
+    --color-h1: var(--color-secondary);
+    --color-h2: var(--color-black);
+    --color-h3: var(--color-black);
+    --color-text: var(--color-black);
+
+    --background-footer: var(--color-dark);
+    --color-text-footer: var(--color-transparent);
+    --background-copyright: var(--color-primary);
+    --color-copyright-text:var(--color-transparent);
+
+    --color-selector-selected: var(--color-secondary);
+
+    --color-button-emphasised: var(--color-primary);
+    --color-button-emphasised-text: var(--color-transparent);
+    --color-button-emphasised-border: var(--color-dark);
+
+    --color-button-understate: var(--color-transparent);
+    --color-button-understate-text: var(--color-primary);
+    --color-button-understate-border: var(--color-dark);
+
+    --color-product-price:var(--color-red);
+    --color-product-brand: var(--color-secondary);
+    --color-product-name: var(--color-black);
+    --color-product-text: var(--color-black);
+
+    --color-product-category: var(--color-primary);
+
+    --color-form-border: var(--color-dark);
+    --color-form-text: var(--color-primary);
+
+}
