@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logitechshop | Logitech speakers and more</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&amp;display=swap" rel="stylesheet">
+    <script src="JS/scripts.js"></script>
+</head>
+<body>
+    <header>
+        <div class="top-line"></div>
+        <nav>
+            <a href="index.html"><logitechshop-title>LOGITECHSHOP</logitechshop-title></a>
+            <div>
+                <button><img src="images\user.svg" alt=""></button>
+                <button><img src="images\heart.svg" alt=""></button>
+                <button onclick="goToCart()"><img src="images\cart.svg" alt=""></button>
+            </div>
+        </nav>
+
+        <menu-search>
+            <div id="dropdown-menu-button">
+                <button onclick="dropdownMenu()">
+                    <img src="images\burger.svg" alt="" id="burger">
+                    <h1>Menu</h1>
+                </button onclick="dropdownMenu()">
+            </div>
+            <div id="searchbox">
+                <form onsubmit="searchProducts()">
+                    <input type="text" id="search-input" placeholder="Search">
+                    <input type="submit" hidden />
+                </form>
+                <button onclick="searchProducts();">
+                    <img src="images/search.svg" alt="">
+                </button>
+            </div>
+        </menu-search>
+
+        <menu-dropdown id="menu-dropdown" class="collapsed">
+            <ul>
+                <li class = "categoryborder"></li>
+                <li><a href="megaboom.html"><h1>UE Megaboom 3</h1></a></li>
+                <li class = "categoryborder"></li>
+                <li><a href="noproductsincategory.html"><h1>Keyboards</h1></a></li>
+                <li class = "categoryborder"></li>
+                <li><a href="noproductsincategory.html"><h1>Mice</h1></a></li>
+                <li class = "categoryborder"></li>
+                <li><a href="noproductsincategory.html"><h1>Headsets</h1></a></li>
+                <li class = "categoryborder"></li>
+                <li><a href="noproductsincategory.html"><h1>Specials</h1></a></li>
+                <li class = "categoryborder"></li>
+                
+            </ul>
+        </menu-dropdown>
+        <hr class="horizontal-line-whole-page">
+
+    </header>
+    <main>
+        <div class="confirmation-title">
+            <h3>Your Order is confirmed</h3>
+            <h2>1 Product</h2>
+        </div>
+        <hr class="horizontal-line-whole-page">
+        <div class="confirmation-title">
+            <h2>Shipping To</h2>
+            <div class="confirmation-shipping">
+                <div id="confirmation-name">Entered Name</div>
+                <div id="confirmation-adress">Entered Adress</div>
+                <div id="confirmation-postcode">Vic XXXX</div>
+                <div id="confirmation-city">Melbourne</div>
+            </div>
+        </div>
+        <hr class="horizontal-line-whole-page">
+        <div class="total-cost-confirmation">
+            <div>Summary</div>
+            <div>$329.00</div>
+        </div>
+        <hr class="horizontal-line-whole-page">
+        <div class="cart-product">
+            <div class="cart-product-image-name">
+                <img src="images/products/megaboom-black/black.webp" alt="">
+                <div><product-brand>Ultimate Ears</product-brand><product-name> Megaboom 3 Nightblack</product-name></div>
+            </div>
+            
+            <div class="price-checkout">  
+                <div>$329.00</div>
+            </div>
+        </div>
+        <hr class="horizontal-line-whole-page">
+        <div class="shipping-cost">
+            <div>Shipping</div>
+            <div>free</div>
+        </div>
+        <hr class="horizontal-line-whole-page">
+        <div class="confirmation-buttons">          
+            <a href="index.html">
+                <button class="emphasised">Back to Homepage</button>
+            </a>
+        </div>
+    </main>
+    <footer>
+        <div id="upper-footer">
+            <div id="logitechshop-footer"><div>LOGITECHSHOP</div></div>
+            <div id="footer-links">
+                <div class="footer-list">Navigate
+                    <ul>
+                        <li></li>
+                        <li><a href="notfound.html">About Us</a></li>
+                        <li><a href="notfound.html">Guarantee</a></li>
+                        <li><a href="notfound.html">Blog</a></li>
+                        <li><a href="notfound.html">Delivery</a></li>
+                        <li><a href="notfound.html">Contact us</a></li>
+                        <li><a href="notfound.html">Sitemap</a></li>
+                    </ul>
+                </div>
+                <div class="footer-list">Categories
+                    <ul>
+                        <li></li>
+                        <li><a href="megaboom.html">UE Megaboom 3</a></li>
+                        <li><a href="noproductsincategory.html">Keyboards</a></li>
+                        <li><a href="noproductsincategory.html">Mice</a></li>
+                        <li><a href="noproductsincategory.html">Headsets</a></li>
+                        <li><a href="noproductsincategory.html">Specials</a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        <div id="copyright-strip">
+            <div>© 2024 Logitechshop.</div>
+        </div>
+    </footer>
+</body>
+</html>
